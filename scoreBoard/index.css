@@ -1,0 +1,91 @@
+body{
+    background-color: #1B244A;
+    background-image: url(https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@font-face{
+    font-family: 'Digital';
+    src: url('DS-DIGI.TTF') format('truetype'),
+    url(DS-DIGIB.TTF) format('truetype'),
+    url(DS-DIGII.TTF) format('truetype');
+
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.name:hover{
+    border-bottom: 1px solid #9AABD8;
+}
+
+.score{
+    width: 160px;
+    height: 130px;
+    margin: 20px 0px;
+    border-radius: 14px;   
+    background-color: rgb(0, 0, 0);
+    font-family: Digital;
+    color: #F94F6D;
+    font-size: 100px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.points{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    width: 160px;
+    height: 45px;
+    font-family: Digital;
+    color: #9AABD8;
+    font-size: 26px;
+}
+
+
+.add{
+    width: 53px;
+    text-align: center;
+    border: 1px #9AABD8 solid;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add:hover{
+    box-shadow: 1px 0px 2px 0px #9AABD8;
+}
+.new-game{
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button{
+    background-image: url(https://img.freepik.com/free-vector/royal-watercolor-valentine-red-background_1340-4006.jpg?w=360);
+    background-position: 200px;
+    border: none;
+}
+
+button:hover{
+    padding: 16px;
+    box-shadow: 1px 0px 6px 1px #677fbc;
+}
